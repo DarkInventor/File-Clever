@@ -56,14 +56,17 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+              {/* <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
                   01
                 </p>
+              </div> */}
+               <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke bg-yellow-500 text-white dark:border-strokedark dark:bg-blacksection">
+                {/* <p className="text-metatitle3 font-medium">03</p> */}
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Comprehensive Solutions
+                  Personalized Service
                 </button>
               </div>
             </div>
@@ -75,14 +78,17 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+              {/* <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
                   02
                 </p>
+              </div> */}
+               <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke bg-red-500 text-white dark:border-strokedark dark:bg-blacksection">
+                {/* <p className="text-metatitle3 font-medium">03</p> */}
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Services
+                  Maximum Refund Guaranteed
                 </button>
               </div>
             </div>
@@ -94,14 +100,12 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
-                <p className="text-metatitle3 font-medium text-black dark:text-white">
-                  03
-                </p>
+              <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke bg-blue-500 text-white dark:border-strokedark dark:bg-blacksection">
+                {/* <p className="text-metatitle3 font-medium">03</p> */}
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                 Support
+                 100% Canadian-Based
                 </button>
               </div>
             </div>
