@@ -95,7 +95,7 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "How We Work?",
+    title: "How it works?",
     newTab: false,
     path: "/#how-it-works",
   },

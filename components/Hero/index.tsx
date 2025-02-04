@@ -142,7 +142,8 @@ const Hero = () => {
                   <div className="flex flex-wrap gap-5">
                     <button
                       aria-label="get started button"
-                       className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
+                      onClick={() => window.location.href = "/#support"}
+                      className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
                     >
                       File with File Clever
                     </button>
