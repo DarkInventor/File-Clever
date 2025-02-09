@@ -27,6 +27,12 @@ const Header = () => {
     window.addEventListener("scroll", handleStickyMenu);
   });
 
+  const phoneNumber = "14373650066" // Replace with your actual WhatsApp number
+  const message = "Hello, I have a question about my taxes." // Tax-related pre-filled message
+
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+
+
   return (
     <header
       className={`fixed left-0 top-0 z-99999 w-full py-0 ${
@@ -161,12 +167,14 @@ const Header = () => {
               GitHub Repo 🌟
             </Link> */}
 
-            <Link
-              href="/#support"
-              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
-            >
-              Let's Connect
-            </Link>
+<Link
+      href={whatsappUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
+    >
+      Let's Connect
+    </Link>
           </div>
         </div>
       </div>
