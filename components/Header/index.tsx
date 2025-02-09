@@ -61,16 +61,23 @@ const Header = () => {
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
-          {/* <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="flex items-center lg:hidden md:hidden">
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="flex items-center lg:hidden md:hidden">
             <Image
               src="/whatsapp-logo.svg"
               alt="WhatsApp"
-              width="22"
-              height="22"
-              className="ml-15 bg-background"
+              width="25"
+              height="25"
+              className="ml-16 bg-background dark:hidden"
+            />
+             <Image
+              src="/whatsapp-logo.svg"
+              alt="WhatsApp"
+              width="25"
+              height="25"
+              className="mr-12 bg-background hidden dark:block"
             />
             <span className="hidden xl:inline-block">Contact Us</span>
-          </a> */}
+          </a>
           <button
             aria-label="hamburger Toggler"
             className="block xl:hidden"
