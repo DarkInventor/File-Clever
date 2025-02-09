@@ -328,7 +328,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: Facebook, href: "https://www.facebook.com/profile.php?id=61572692586645#", label: "Facebook" },
-    { icon: Twitter, href: "#", label: "Twitter" },
+    { icon: Twitter, href: "https://x.com/File_Clever", label: "Twitter" },
     { icon: Linkedin, href: "https://www.linkedin.com/company/tax-fileclever/?viewAsMember=true", label: "LinkedIn" },
     { icon: Instagram, href: "https://www.instagram.com/fileclever_tax/", label: "Instagram" },
   ]
