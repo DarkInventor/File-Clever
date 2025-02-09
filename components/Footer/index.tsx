@@ -309,6 +309,8 @@
 // };
 
 // export default Footer;
+
+
 "use client"
 import Image from "next/image"
 import Link from "next/link"
@@ -325,10 +327,10 @@ const Footer = () => {
   ]
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
+    { icon: Facebook, href: "https://www.facebook.com/profile.php?id=61572692586645#", label: "Facebook" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Instagram, href: "#", label: "Instagram" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/tax-fileclever/?viewAsMember=true", label: "LinkedIn" },
+    { icon: Instagram, href: "https://www.instagram.com/fileclever_tax/", label: "Instagram" },
   ]
 
   return (
@@ -361,8 +363,14 @@ const Footer = () => {
                   href={item.href}
                   className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-300"
                   aria-label={item.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <item.icon className="h-6 w-6" />
+                  {typeof item.icon === "string" ? (
+                    <img src={item.icon} alt={item.label} className="h-6 w-6" />
+                  ) : (
+                    <item.icon className="h-6 w-6" />
+                  )}
                 </a>
               ))}
             </div>
@@ -425,4 +433,3 @@ const Footer = () => {
 }
 
 export default Footer
-
