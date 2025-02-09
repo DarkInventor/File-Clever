@@ -67,7 +67,7 @@ const Header = () => {
               alt="WhatsApp"
               width="22"
               height="22"
-              className="mr-10 bg-background"
+              className="ml-15 bg-background"
             />
             <span className="hidden xl:inline-block">Contact Us</span>
           </a>
