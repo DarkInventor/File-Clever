@@ -216,7 +216,7 @@ const About = () => {
                 fill
               />
               <Image
-                src="/file-clever-step2.gif"
+                src="/file-clever-step-2.gif"
                 alt="About"
                 className="hidden dark:block rounded-[0.75rem]"
                 fill
