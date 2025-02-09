@@ -212,7 +212,7 @@ const Contact = () => {
               <div>
                 <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">Phone Number</h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="#">+1 437 365 0066</a>
                 </p>
               </div>
             </motion.div>

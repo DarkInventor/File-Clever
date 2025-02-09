@@ -321,7 +321,7 @@ const Footer = () => {
     { title: "Home", href: "/" },
     { title: "Our Services", href: "/#features" },
     { title: "How it Works", href: "/#how-it-works" },
-    { title: "About Us", href: "/#support" },
+    { title: "Contact Us", href: "/#support" },
   ]
 
   const socialLinks = [
@@ -396,10 +396,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="tel:+0094233463438"
+                    href="tel:+14373650066"
                     className="text-base text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors duration-300"
                   >
-                    +009 4233 4634 38
+                    +1 437 365 0066
                   </a>
                 </li>
                 <li className="text-base text-gray-500 dark:text-gray-400">20 Stonehill Court, Toronto</li>
