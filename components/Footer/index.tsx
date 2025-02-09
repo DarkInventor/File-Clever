@@ -407,7 +407,7 @@ const Footer = () => {
                     href="tel:+14373650066"
                     className="text-base text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors duration-300"
                   >
-                    +1 437 365 0066
+                    +1 (437)-365-0066
                   </a>
                 </li>
                 <li className="text-base text-gray-500 dark:text-gray-400">20 Stonehill Court, Toronto</li>
