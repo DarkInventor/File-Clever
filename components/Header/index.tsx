@@ -61,7 +61,7 @@ const Header = () => {
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
-          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="flex items-center lg:hidden md:hidden">
+          {/* <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="flex items-center lg:hidden md:hidden">
             <Image
               src="/whatsapp-logo.svg"
               alt="WhatsApp"
@@ -70,7 +70,7 @@ const Header = () => {
               className="ml-15 bg-background"
             />
             <span className="hidden xl:inline-block">Contact Us</span>
-          </a>
+          </a> */}
           <button
             aria-label="hamburger Toggler"
             className="block xl:hidden"
@@ -183,6 +183,7 @@ const Header = () => {
       rel="noopener noreferrer"
       className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
     >
+      <img src="/whatsapp-white.svg" alt="WhatsApp Logo" className="h-5 w-5 mr-2" />
       Let's Connect
     </Link>
           </div>
