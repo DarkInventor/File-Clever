@@ -24,6 +24,7 @@ export default function Head() {
       <meta name="twitter:title" content="File Clever | Stress-Free Canadian Tax Filing" />
       <meta name="twitter:description" content="Maximize your refund with expert remote tax services. File your taxes effortlessly from home. Our Canadian tax experts ensure accuracy and secure your best possible refund." />
       <meta name="twitter:image" content="https://fileclever.com/og-image.png" />
+      <meta name="google-site-verification" content="_kMu4QzM5IuqeWbRFXi-v11SDUejAOxRc9WP2YaC_aw" />
     </>
   );
 }

@@ -54,7 +54,7 @@ export default function RootLayout({
           content="Maximize your refund with expert remote tax services. File your taxes effortlessly from home. Our Canadian tax experts ensure accuracy and secure your best possible refund."
         />
         <meta name="twitter:image" content="https://fileclever.com/og-image.png" />
-
+        <meta name="google-site-verification" content="_kMu4QzM5IuqeWbRFXi-v11SDUejAOxRc9WP2YaC_aw" />
         <link rel="icon" href="/logo-dark.png" />
       </head>
       <body className={`dark:bg-black ${inter.className}`}>
