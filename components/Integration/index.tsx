@@ -58,12 +58,13 @@ const Integration = () => {
               className="animate_top w-1/6"
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
-                <Image
+                {/* <Image
                   width={50}
                   height={50}
                   src="./images/brand/brand-07.svg"
                   alt="Brand"
-                />
+                /> */}
+                   <span className="font-bold text-2xl italic dark:text-white">C</span>
               </div>
             </motion.div>
 
@@ -105,12 +106,7 @@ const Integration = () => {
               className="animate_top w-1/6"
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
-                <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-08.svg"
-                  alt="Brand"
-                />
+              <span className="font-bold text-2xl italic dark:text-white">E</span>
               </div>
             </motion.div>
 
@@ -154,12 +150,7 @@ const Integration = () => {
               className="animate_top w-1/6"
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
-                <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-09.svg"
-                  alt="Brand"
-                />
+              <span className="font-bold text-2xl italic dark:text-white">E</span>
               </div>
             </motion.div>
 
@@ -222,12 +213,7 @@ const Integration = () => {
               className="animate_top w-1/6"
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
-                <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-10.svg"
-                  alt="Brand"
-                />
+              <span className="font-bold text-2xl italic dark:text-white">L</span>
               </div>
             </motion.div>
 
@@ -271,12 +257,7 @@ const Integration = () => {
               className="animate_top w-1/6"
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
-                <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-11.svg"
-                  alt="Brand"
-                />
+              <span className="font-bold text-2xl italic dark:text-white">V</span>
               </div>
             </motion.div>
 
@@ -319,13 +300,14 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
-                <Image
+              <div className="inline-block rounded-[10px] bg-white p-4.5  shadow-solid-7 dark:bg-btndark">
+                {/* <Image
                   width={50}
                   height={50}
                   src="./images/brand/brand-12.svg"
                   alt="Brand"
-                />
+                /> */}
+                <span className="font-bold text-2xl italic dark:text-white">R</span>
               </div>
             </motion.div>
           </div>
