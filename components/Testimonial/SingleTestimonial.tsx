@@ -12,7 +12,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
           </h3>
           <p>{designation}</p>
         </div>
-        <Image width={60} height={50} className="" src={image} alt={name} />
+        <Image width={50} height={50} className="rounded-full h-12" src={image} alt={name} />
       </div>
 
       <p>{content}</p>

@@ -5,34 +5,26 @@ import { Testimonial } from "@/types/testimonial";
 export const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
-    image: image1,
+    name: "Chris A.",
+    designation: "",
+    image: "/Chris.jpeg",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "I was worried about missing deductions, but Daksh handled everything perfectly. Really appreciate his help and professionalism.",
   },
   {
     id: 2,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
-    image: image2,
+    name: "Jay Patel",
+    designation: "",
+    image: "/Jay-Patel.jpeg",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "The process was smooth and seamless, thanks to the File Clever team they were always ready to help. Their expertise and support made everything easy. Highly recommended!",
   },
   {
     id: 3,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
-    image: image1,
+    name: "Emily Wang",
+    designation: "",
+    image: "/Emily-Wang.jpeg",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
-  },
-  {
-    id: 4,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
-    image: image2,
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Great service, File Clever team was quick to assist with my tax returns. They were incredibly responsive and made the entire process smooth and stress-free. I couldn't have asked for a better experience. Highly recommend their services to anyone in need of assistance with their taxes.",
   },
 ];
