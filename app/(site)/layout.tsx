@@ -179,9 +179,9 @@ export default function RootLayout({
         <meta name="author" content="File Clever" />
 
         {/* Favicon */}
-        <link rel="icon" href="/logo/logo-dark.png" type="image/png" sizes="any" />
-        <link rel="icon" href="/logo/logo-dark.png" type="image/png" sizes="32x32" />
-        <link rel="apple-touch-icon" href="/logo/logo-dark.png" />
+        <link rel="icon" href="/images/logo/logo-dark.png" type="image/png" sizes="any" />
+        <link rel="icon" href="/images/logo/logo-dark.png" type="image/png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/images/logo/logo-dark.png" />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
