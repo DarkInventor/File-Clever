@@ -7,6 +7,7 @@ import { CheckCircle } from "lucide-react"
 const Contact = () => {
   const [hasMounted, setHasMounted] = React.useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isChecked, setIsChecked] = useState(false)
 
   React.useEffect(() => {
     setHasMounted(true)
@@ -53,8 +54,9 @@ const Contact = () => {
           type="text"
           name="name"
           placeholder="Full name"
-          required
+         
           className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+          required
         />
 
         <input
@@ -85,8 +87,21 @@ const Contact = () => {
 
       <div className="flex flex-wrap gap-4 xl:justify-between ">
         <div className="mb-4 flex md:mb-0">
-          <input id="default-checkbox" type="checkbox" className="peer sr-only" required />
-          <span className="border-gray-300 bg-gray-100 text-blue-600 dark:border-gray-600 dark:bg-gray-700 group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded peer-checked:bg-primary">
+          <input 
+            id="default-checkbox" 
+            type="checkbox" 
+            className="peer sr-only" 
+            required 
+            onClick={(e) => e.stopPropagation()} // Prevent label click from checking the checkbox
+          />
+          <span 
+            className="border-gray-300 bg-gray-100 text-blue-600 dark:border-gray-600 dark:bg-gray-700 group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded peer-checked:bg-primary"
+            onClick={(e) => {
+              e.stopPropagation(); // Prevent label click from checking the checkbox
+              const checkbox = document.getElementById("default-checkbox") as HTMLInputElement;
+              checkbox.checked = !checkbox.checked; // Toggle checkbox state
+            }}
+          >
             <svg
               className="opacity-0 peer-checked:group-[]:opacity-100"
               width="10"
@@ -103,7 +118,11 @@ const Contact = () => {
               />
             </svg>
           </span>
-          <label htmlFor="default-checkbox" className="flex max-w-[425px] cursor-pointer select-none pl-5">
+          <label 
+            htmlFor="default-checkbox" 
+            className="flex max-w-[425px] cursor-pointer select-none pl-5"
+            onClick={(e) => e.stopPropagation()} // Prevent label click from checking the checkbox
+          >
             By clicking Checkbox, you agree to use our "Form" terms And consent cookie usage in browser.
           </label>
         </div>
@@ -201,7 +220,7 @@ const Contact = () => {
 
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">Our Location</h3>
-                <p>20 stonehill court, Toronto</p>
+                <p>20 Stonehill Court, Toronto</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">Email Address</h3>

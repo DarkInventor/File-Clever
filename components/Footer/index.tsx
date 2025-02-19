@@ -416,10 +416,10 @@ const Footer = () => {
             <div className="ml-0 lg:ml-10">
               <h3 className="text-base font-medium text-gray-900 dark:text-white mb-4 ">Office Hours</h3>
               <ul className="space-y-4 text-base text-gray-500 dark:text-gray-400">
-                <li>Monday - Friday:
-                  <br /> 9am - 5pm</li>
-                <li>Saturday: 10am - 2pm</li>
-                <li>Sunday: Closed</li>
+                <li>Monday - Sunday:
+                  <br /> 10am - 8pm</li>
+                {/* <li>Saturday: 10am - 2pm</li>
+                <li>Sunday: Closed</li> */}
               </ul>
             </div>
           </div>

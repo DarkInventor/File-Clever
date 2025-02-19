@@ -21,7 +21,7 @@ export const testimonialData: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Emily Wang",
+    name: "Emily Wong",
     designation: "",
     image: "/Emily-Wang.jpeg",
     content:
