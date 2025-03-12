@@ -29,13 +29,13 @@ const About = () => {
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="/file-clerver-step1.gif"
+                src="/file-clerver-step-1.gif"
                 alt="About"
                 className="dark:hidden rounded-[0.75rem]"
                 fill
               />
               <Image
-                 src="/file-clerver-step1.gif"
+                 src="/file-clerver-step-1.gif"
                 alt="About"
                 className="hidden dark:block"
                 fill
