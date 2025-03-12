@@ -29,13 +29,13 @@ const About = () => {
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="/file-clerver-step-1.gif"
+                src="https://pub-2634e376131e440895b156c957526ab5.r2.dev/file-clerver-step-1.gif"
                 alt="About"
                 className="dark:hidden rounded-[0.75rem]"
                 fill
               />
               <Image
-                 src="/file-clerver-step-1.gif"
+                 src="https://pub-2634e376131e440895b156c957526ab5.r2.dev/file-clerver-step-1.gif"
                 alt="About"
                 className="hidden dark:block"
                 fill
@@ -210,13 +210,13 @@ const About = () => {
               className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="/file-clever-step-2.gif"
+                src="https://pub-2634e376131e440895b156c957526ab5.r2.dev/file-clever-step-2.gif"
                 alt="About"
                 className="dark:hidden rounded-[0.75rem]"
                 fill
               />
               <Image
-                src="/file-clever-step-2.gif"
+                src="https://pub-2634e376131e440895b156c957526ab5.r2.dev/file-clever-step-2.gif"
                 alt="About"
                 className="hidden dark:block rounded-[0.75rem]"
                 fill
